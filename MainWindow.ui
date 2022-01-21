@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>504</width>
+    <height>539</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Face Recognition PyQt App</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>Icon.png</normaloff>Icon.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(30, 82, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="lable">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>541</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Project Logo.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>390</y>
+      <width>461</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft YaHei UI</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 192, 32);</string>
+    </property>
+    <property name="text">
+     <string>FACE RECOGNITION - ATTANDANCE SYSTEM</string>
+    </property>
+    <property name="wordWrap">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>400</y>
+      <width>501</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(52, 107, 200);</string>
+    </property>
+    <widget class="QPushButton" name="Start_Button">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>60</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Serif</family>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(7, 7, 7);
+background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>START</string>
+     </property>
+    </widget>
+   </widget>
+   <zorder>widget</zorder>
+   <zorder>lable</zorder>
+   <zorder>label_2</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
